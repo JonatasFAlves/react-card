@@ -1,0 +1,23 @@
+.SocialBadges {
+    margin-top: 12px;
+}
+
+    .SocialBadges span {
+        margin: 0 16px;
+    }
+
+        .SocialBadges span i {
+            cursor: pointer;
+        }
+
+.Comment {
+    color: #aaa;
+}
+
+.Heart {
+    color: #E02760;
+}
+
+.Envelope {
+    color: #aaa;
+}

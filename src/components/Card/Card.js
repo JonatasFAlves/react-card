@@ -9,7 +9,13 @@ const card = (props) => (
         <ProfilePicture />
         <Container 
             cardTitle={props.cardTitle}
-            cardBody={props.cardBody} />
+            cardBody={props.cardBody}
+            cardComments={props.cardComments}
+            cardHearts={props.cardHearts}
+            liked={props.liked}
+            newComment={props.newComment}
+            emailSent={props.emailSent}
+            newEmail={props.newEmail} />
     </div>
 );
 

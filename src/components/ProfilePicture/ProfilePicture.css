@@ -1,5 +1,6 @@
 .ProfilePicture {
     width: 7rem;
+    margin: 0 auto;
 }
 
 .ProfilePicture img {

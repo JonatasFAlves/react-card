@@ -11,7 +11,13 @@ const container = (props) => (
         <CardBody 
             title={props.cardTitle}
             body={props.cardBody} />
-        <SocialBadges />
+        <SocialBadges 
+            comments={props.cardComments}
+            hearts={props.cardHearts}
+            liked={props.liked}
+            newComment={props.newComment}
+            emailSent={props.emailSent}
+            newEmail={props.newEmail}/>
     </div>
 );
 

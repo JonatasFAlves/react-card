@@ -1,9 +1,21 @@
 .Card {
-    display: flex;
-    flex-direction: row;
-    width: 600px;
+    width: 100%;
     margin: 5% auto;
     box-sizing: border-box;
 }
 
-/* Add reponsiveness */
+@media (min-width: 500px) {
+    .Card {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+    }
+}
+
+@media (min-width: 700px) {
+    .Card {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+    }
+}
